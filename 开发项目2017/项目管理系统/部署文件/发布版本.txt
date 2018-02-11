@@ -1,0 +1,9 @@
+1.打包前先配置 在src/main/resource 下面的 application.yml配置文件，修改active : 下面的环境
+
+2.打包命令：clean package -Dmaven.test.skip=true
+
+3.生成的jar文件在项目相对应的target下面，有2个jar（fykj-basic-common-1.7.1-SNAPSHOT.jar 和 fykj-basic-core-1.7.1-SNAPSHOT.jar）,复制jar包替换原来的包
+
+4.启动jar 命令：java -jar fykj-basic-common-1.7.1-SNAPSHOT.jar
+
+5.前端页面直接复制pages和ui文件夹替换
